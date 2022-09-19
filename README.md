@@ -1,11 +1,8 @@
+# Local-Outlier-Factor
+## About The Project
 
-# Реализовано
-
-- алгоритм Local Outlier Factor (LOF),
-
-- сравнение с KNN,
-
-- метрики:
+1) Implementation of Local Outlier Factor (LOF) algorithm for anomaly detection task,
+2) Implementation of the following metrics:
 
     - Average precision,
     
@@ -13,16 +10,27 @@
     
     - Confusion matrix.
   
-- визуализация данных,
+3) data visualization (using Plotly),
 
-- поиск k, дающего лучший average precision,
+4) searching for k, which gives the best average precision,
 
-- построение precision-recall кривой,
+5) building a precision-recall curve,
 
-- поиск лучшего F1-score, 
+6) searching for the best F1-score, 
 
-- построение confusion matrix для данного порога.
+7) building a confusion matrix for a given threshold.
 
 
-# Наборы данных 
-Satimage-2, Cifar10, Mammography.
+## Getting Started
+
+File to run:
+
+        lof.py
+
+## Additional Information
+
+Datasets, which were used: 
+
+        1) Satimage-2,
+        2) Cifar10, 
+        3) Mammography.
